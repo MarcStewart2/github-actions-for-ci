@@ -3,3 +3,11 @@ on: pull_request_review
 jobs:
   labelWhenApproved:
     runs-on: ubuntu-latest
+    steps:
+      - name: Fred
+        uses: label-when-approved-action
+        env:
+          APPROVALS: 1
+          GITHUB_TOKEN: 5e5ce21706388ad8616e86c0df941df893152e52
+          ADD_LABEL: DONE!
+      
