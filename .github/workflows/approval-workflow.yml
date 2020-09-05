@@ -1,1 +1,2 @@
 name: Team awesome's awful confusing approval workflow
+on: pull_request_review
